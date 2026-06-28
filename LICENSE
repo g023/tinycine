@@ -19,3 +19,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+NOTE ON MODEL WEIGHTS: This MIT license covers only the source code in this
+repository. It does NOT cover the LTX-2.3 model weights, which are downloaded
+separately and remain © Lightricks under the LTX-2 Community License. tinycine
+neither contains nor redistributes any model weights.

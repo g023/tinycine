@@ -1,0 +1,17 @@
+# tinycine runtime dependencies.
+#
+# IMPORTANT: install PyTorch FIRST, from the CUDA 12.x wheel index, BEFORE these:
+#   pip install --index-url https://download.pytorch.org/whl/cu124 torch torchvision
+#
+# Then:  pip install -r requirements.txt
+
+diffusers>=0.38.0
+transformers>=4.46.0
+accelerate>=1.0.0
+safetensors>=0.4.0
+bitsandbytes>=0.44.0      # 4-bit Gemma text encoder
+av>=12.0.0               # PyAV — MP4 encode + audio mux
+huggingface_hub[cli]>=0.26.0
+hf_transfer>=0.1.8       # faster model downloads
+numpy
+pillow
